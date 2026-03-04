@@ -49,7 +49,7 @@ TEST_LIMIT = None
 DATASOURCE_TYPE_FILTER = "all"  # "live", "extract", or "all"
 DATABASE_TYPE_FILTER   = "snowflake"  # e.g. "snowflake", "redshift", "sqlserver", or "all"
 
-OUTPUT_CSV = Path(__file__).parent / "tableau_datasources_auth_test.csv"
+OUTPUT_CSV = Path(__file__).parent / "tableau_datasources_auth.csv"
 
 # ---------------------------------------------------------------------------
 # Tableau REST API helpers
